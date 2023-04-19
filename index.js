@@ -1,7 +1,7 @@
 const dotenv = require("dotenv").config();
 const io = require("socket.io")(process.env.SOCKET_SERVER || 8900, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://social-mern-basic.vercel.app",
   },
 });
 
